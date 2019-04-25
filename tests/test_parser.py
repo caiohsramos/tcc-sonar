@@ -10,6 +10,7 @@ def test_parse_default(mocker):
     assert args.url == 'http://localhost:9000'
     assert args.token == None
     assert args.project_key == None
+    assert 1 == 2
 
 
 def test_parse(mocker):
